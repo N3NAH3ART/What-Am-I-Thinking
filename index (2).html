@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+	<head>
+		
+<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+ 
+<style>
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+ #banner{
+      background-color: #000000;
+      width: 100%;
+      height: 270px;
+     margin: 0 auto;
+     
+   
+    }
+ 
+body {
+  font-family: 'Bangers', cursive;
+  background-image: url("http://image.shutterstock.com/z/stock-vector-seamless-pattern-background-with-comic-book-speech-bubbles-vector-illustration-205033411.jpg");
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	max-height:23%;
+}
+img{
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+	h2{
+		color: #03258C;
+	}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: auto;
+  background: #05F2F2;
+	border: 8px solid black;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 10px solid black;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #0554F2;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label:hover {
+  color: #05AFF2;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #0554F2;
+  border: 5px solid black;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+</style>
+
+	</head>
+	
+	<body>
+<div id = "banner">
+
+    </div>
+<main>
+  <center>
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">FOOD</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">ENTERTAINMENT</label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">FASHION</label>
+
+
+  <section id="content1">
+		<p> <h2>MY DIET IS... </h2>
+		</p>
+				...Dairy Free
+		<p>
+			<a href="http://www.mynaturalfamily.com/recipes/paleo-recipes/wendys-copycat-frosty-recipe-paleo-clean-eating-gluten-free-dairy-free/">Dairy Free Wendys Frosty</a>
+		</p>
+		<p>
+			<a href="http://www.texanerin.com/chocolate-zucchini-brownies/#_a5y_p=3925422">Dairy Free Chocolate Brownies</a>
+		</p>
+		...Vegan
+		<p>
+			<a href="http://choosingchia.com/vegan-raspberry-cheesecake-bars/">Vegan Raspberry Cheesecake Bars</a>
+		</p>
+		<p>
+			<a href="http://simpleveganblog.com/vegan-pasta-alfredo/">Vegan Alfredo Pasta</a>
+		</p>
+		...Nut Free
+		<p>
+		<a href="http://angelaskitchen.com/2011/11/01/slow-cooker-pork-chopes-with-apple-cranberry-sauce/">Nut Free Pork Chops</a>
+		</p>
+		<p>
+			<a href="https://elanaspantry.com/pumpkin-chocolate-chip-cookies/">Pumpkin Chocolate Chip Cookies</a>
+		</p>
+		...Wheat Free
+		<p>
+			<a href="http://www.wheat-free.org/wheat-free-granola-recipe.html">Wheat Free Granola</a>
+		</p>
+		<p>
+			<a href="http://www.wheat-free.org/gluten-free-flax-bread-recipe.html">Wheat Free Flax Bread</a>
+		</p>
+		...Soy Free
+		<p>
+			<a href="http://emilylevenson.com/recipe-asparagus-frittata/">Onion + Asparagus Frittata</a>
+		</p>
+		<p>
+			<a href="http://emilylevenson.com/recipe-strawberry-watermelon-smoothie/">Strawberry Watermelon Smoothie</a>
+		</p>
+		...Egg Free
+		<p>
+		<a href="http://allrecipes.com/recipe/21216/eggless-coffee-cake/?internalSource=staff%20pick&referringId=740&referringContentType=recipe%20hub">Eggless Coffee Cake</a>
+		</p>
+		<p>
+			<a href="http://allrecipes.com/recipe/21442/lemon-ginger-shrimp/?internalSource=staff%20pick&referringId=1675&referringContentType=recipe%20hub">Eggless Lemon Ginger Shrimp</a>
+		</p>
+		...Fish/Seafood Free
+		<p>
+			<a href="http://www.peta.org/recipes/fish-chips-vegan-tartar-sauce/">Fishless Fish + Chips</a>
+		</p>
+		<p>
+			<a href="http://www.peta.org/recipes/fish-tacos/">Fishless Fish Tacos</a>
+		</p>
+  </section>
+   
+  <section id="content2">
+		<p> <h2>I WANT TO...</h2>
+		</p>
+	  ...Chat With People
+	<p>
+		<a href="https://www.messenger.com/">Messenger</a>
+	</p>
+	<p>
+		<a href="https://www.snapchat.com/">Snapchat</a>
+	</p>
+     ...Listen To Music
+    <p>
+			<a href="https://www.spotify.com/us/">Spotify</a>
+	  </p>
+    <p>
+     	<a href="https://soundcloud.com/">SoundCloud</a>
+    </p>
+	...Post
+	<p>
+		<a href="https://www.instagram.com/?hl=en">Instagram</a>
+	</p>
+	<p>
+		<a href="https://twitter.com/?lang=en">Twitter</a>
+	</p>
+	...Watch Anime
+	<p>
+		<a href="http://www.crunchyroll.com/">Crunchyroll</a>
+	</p>
+	<p>
+		<a href="http://www.funimation.com/welcome">Funimation</a>
+	</p>
+		...Watch Videos + Movies
+	<p>
+		<a href="https://www.youtube.com/">YouTube</a>
+	</p>
+	<p>
+		<a href="https://www.netflix.com/">Netflix</a>
+	</p>
+  </section>
+    
+  <section id="content3">
+    <p> <h2>MY STYLE IS...</h2>
+    </p>
+		...Androgynous
+		<p>
+			<a href="http://androgynous-fashion-design.tumblr.com/">Androgynous Fashion Design</a>
+		</p>
+		<p>
+			<a href="http://switchteams.tumblr.com/tagged/me">Androgynous Fashion Inspiration</a>
+		</p>
+		...Artsy
+    <p>
+    	<a href="https://indigaleyiah.com/">Artsy Looks</a>
+    </p>
+		<p>
+			<a href="http://www.abeautifulmess.com/">Artsy Outfits + Layouts</a>
+		</p>
+		...Bohemian
+		<p>
+			<a href="http://stylelovely.com/mytenida/">Bohemian Outfits</a>
+		</p>
+		<p>
+			<a href="http://www.vavawoom.com/annamavridis/">Bohemian Fashion Inspiration</a>
+		</p>
+		...Chic
+		<p>
+			<a href="http://www.champagnelifestyleblog.com/">Chic Outfits + Lifestyles</a>
+		</p>
+		<p>
+			<a href="http://www.candicenikeia.com/">Chic Accessories + Tips</a>
+		</p>
+		...Classic
+		<p>
+			<a href="http://www.theaugustdiaries.com/">Classic Fashion Inspiration</a>
+		</p>
+		<p>
+			<a href="http://www.thefashioneaters.com/">Classic Looks</a>
+		</p>
+		...Exotic
+		<p>
+			<a href="http://www.myexoticfashion.com/tag/fashion-blog/">Exotic Outfit Inspiration</a>
+		</p>
+		<p>
+			<a href="http://www.myexoticfashion.com/">Exotic Outfit Examples</a>
+		</p>
+		...Glamorous
+		<p>
+			<a href="http://www.thisisglamorous.com/">Glamorous Fashion + Lifestyle</a>
+		</p>
+		<p>
+			<a href="http://www.glamour.com/about/fashion-blogs">Glamorous Fashion Blogs</a>
+		</p>
+		...Goth
+		<p>
+			<a href="http://aliciahannahnaomi.tumblr.com/">Goth Fashion Inspiration</a>
+		</p>
+		<p>
+			<a href="http://hautemacabre.com/">Goth Outfits + Accessories</a>
+		</p>
+		...Grunge
+		<p>
+			<a href="http://smellslike-teengrunge.tumblr.com/">Grunge Outfit Inspiration</a>
+		</p>
+		<p>
+			<a href="http://fashiongrunge.com/">Grunge Fashion</a>
+		</p>
+		...Hipster
+		<p>
+			<a href="http://thebestfashionblog.com/tag/hipster-style">Hipster Fashion</a>
+		</p>
+		<p>
+			<a href="http://stylelikehipster.tumblr.com/">Hipster Fashion Inspiration</a>
+		</p>
+		...Preppy
+		<p>
+			<a href="http://www.somethingdelightfulblog.com/">Preppy Fashion Advice</a>
+		</p>
+		<p>
+			<a href="https://preppyguidetolife.com/">Preppy Fashion Inspiration</a>
+		</p>
+		...Punk
+		<p>
+			<a href="http://thebestfashionblog.com/womens-fashion/womens-modern-punk-style-for-2015-2016-season">Punk Outfits</a>
+		</p>
+		<p>
+			<a href="http://punkstyle.tumblr.com/">Punk Fashion Inspiration</a>
+		</p>
+		...Rocker
+		<p>
+			<a href="http://www.collegefashion.net/fashion-tips/15-must-have-items-for-an-edgy-rocker-chic-wardrobe-plus-45-outfit-ideas/">Rocker Accessories + Tips</a>
+		</p>
+		<p>
+			<a href="http://thebestfashionblog.com/womens-fashion/how-to-style-glam-rock">Rocker Fashion Inspiration</a>
+		</p>
+		...Sophisticated
+		<p>
+			<a href="http://pinkpeonies.com/">Sophisticated Fashion Blog</a>
+		</p>
+		<p>
+			<a href="http://www.whowhatwear.com/sophisticated-grownup-style">Sophisticated Fashion Advice</a>
+		</p>
+		...Sporty
+		<p>
+			<a href="http://sportsanista.com/">Sporty Fashion Inspiration</a>
+		</p>
+		<p>
+			<a href="http://www.seventeen.com/fashion/style-advice/tips/g1192/sporty-fashion/">Sporty Outfit Ideas</a>
+		</p>
+		...Tomboy
+		<p>
+			<a href="http://www.tomboyfemme.com/">Tomboy Fashion Inspiration</a>
+		</p>
+		<p>
+			<a href="http://www.whowhatwear.com/tomboy-style-how-to-do-it-right-2014/slide4">Tomboy Style Advice</a>
+		</p>
+  </section>
+</center>
+</main>
+	</body>
+</html>
